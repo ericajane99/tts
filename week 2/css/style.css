@@ -1,0 +1,157 @@
+/*imports google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab:300,400,500,600,700');
+
+body{
+	/*RGBA has transparency*/
+	background-color: rgba(0,0,255, .25);
+
+	/*HEX code has solid color*/
+	background-color: #00ff00;
+
+	/*some colors have words*/
+	background-color: lightblue;
+
+	/*background image*/
+	background-image: url("../img/back.png") !important;
+
+	/*adjust background repeat*/
+	background-repeat: repeat-y;
+	background-repeat: repeat-x;
+	background-repeat: no-repeat;
+	background-image: url("../img/erica-profile.jpg");
+
+	/*adjust background size*/
+	background-size: 600px;
+	background-size: cover;
+	background-size: 100%;
+
+	/*adjust background position*/
+	background-position: bottom right;
+	background-position: center;
+	background-position: top center;
+
+	/*background scroll*/
+	background-attachment: fixed;
+}
+
+h1{
+	font-family: 'Zilla Slab', Times New Roman, Times, serif;
+	font-weight: 700;
+}
+
+h2{
+	background-color: white;
+	/*makes the element 100% wide*/
+	display: block;
+}
+
+strong{
+	background-color: blue;
+	/*floats content from left to right. keep content size*/
+	display: inline;
+}
+
+
+h3{
+	color: #888;
+}
+
+p{
+	/*custom font from google fonts*/
+	font-family: 'Zilla Slab', Times New Roman, Times, serif;
+
+	/*font weight*/
+	font-weight: 300;
+
+	/*text color*/
+	color: #ffffff;
+
+	/*font size*/
+	font-size: 24px;
+
+	/*text shadow*/
+				/*x  y  blur  color*/
+	text-shadow: 2px 2px 3px #000000;
+
+	/*line height*/
+	line-height: 40px;
+	line-height: 2em;
+
+	/*text alignment*/
+	text-align: right;
+	text-align: center;
+
+	/*display properties*/
+	display: inline;
+	display: none;
+	display: block;
+
+	opacity: .5;
+}
+
+.intro{
+	background-color: black;
+	/*padding-inner most layer*/
+	padding: 12px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+
+	/*border properties*/
+	border: solid 2px red;
+	border-top: dashed 3px green;
+	border-right: solid 3px purple;
+
+	/*corder radius*/
+	border-radius: 20px;
+	border-bottom-right-radius: 0px;
+
+	/*margin-outer most layer*/
+	margin: 10px;
+}
+
+/*. means class. class is a general classification of tag*/
+.intro-text{
+	font-size: 40px;
+}
+
+.big-letter{
+	font-size: 90px;
+	color: red;
+}
+
+/* # means id, which is more specific than class*/
+#fade{
+	opacity: .5;
+}
+
+.container{
+	width: 100%;
+	padding: 20px;
+	background-color: white;
+
+	/*shortcut: all 4*/
+	margin: 4px;
+
+	/*shorcut: top and bottom, left and right*/
+	margin: 10px, 20px;
+
+	/*shortcut: all 4 sides (clockwise)*/
+		/*top right bottom left*/
+	margin: 10px 30px 20px 30px;
+
+		margin-left: auto;
+	margin-right: auto;
+
+
+	/*limits the width*/
+	max-width: 900px;
+}
+.center{
+	text-align: center;
+}
+
+ul{
+	text-align: left;
+display: inline-block;
+list-style-position: inside;
+}
