@@ -1,0 +1,23 @@
+/* line 4, /Users/AmErica/Documents/GitHub/tts/style/sass/style.scss */
+body {
+  background: blue;
+}
+
+/* line 8, /Users/AmErica/Documents/GitHub/tts/style/sass/style.scss */
+h1 {
+  color: #6666ff;
+  font-family: Helvetica, arial, sans-serif;
+}
+
+/* line 13, /Users/AmErica/Documents/GitHub/tts/style/sass/style.scss */
+main h1 {
+  color: #000099;
+}
+
+/* line 18, /Users/AmErica/Documents/GitHub/tts/style/sass/style.scss */
+p {
+  color: #6666ff;
+  font-family: Helvetica, arial, sans-serif;
+}
+
+/*# sourceMappingURL=../css/style.map */
