@@ -1,11 +1,16 @@
 /* line 5, /Users/AmErica/Documents/GitHub/tts/week 6/bootstrap-page/style/scss/style.scss */
-.border, .container, .container-fluid, [class^="col"] {
+.border, .container, .container-fluid, [class^="col-"] {
   border: solid 3px black;
 }
 
 /* line 10, /Users/AmErica/Documents/GitHub/tts/week 6/bootstrap-page/style/scss/style.scss */
 .container-fluid {
   border-color: red;
+}
+
+/* line 20, /Users/AmErica/Documents/GitHub/tts/week 6/bootstrap-page/style/scss/style.scss */
+.carousel-item {
+  max-height: 800px;
 }
 
 /*# sourceMappingURL=../css/style.map */

@@ -5,8 +5,8 @@
 		"../scss/style.scss"
 	],
 	"sourcesContent": [
-		"body{\n\n}\n\n.border{\n  border: solid 3px black;\n}\n.container{\n  @extend .border;\n  &-fluid{\n    @extend .border;\n    border-color: red;\n  }\n}\n\n[class^=\"col\"]{\n  @extend .border;\n}\n"
+		"body{\n\n}\n\n.border{\n  border: solid 3px black;\n}\n.container{\n  @extend .border;\n  &-fluid{\n    @extend .border;\n    border-color: red;\n  }\n}\n\n[class^=\"col-\"]{\n  @extend .border;\n}\n\n.carousel-item{\n  max-height: 800px;\n}\n"
 	],
-	"mappings": ";AAIA,AAAA,OAAO,EAGP,AAHA,UAGU,EAAV,AAHA,gBAGU,GAQV,AAAA,AAXA,KAWC,EAAO,KAAK,AAAZ,EAXM;EACL,MAAM,EAAE,eAAgB;CACzB;;;AACD,AAAA,gBAAU,CAED;EAEL,YAAY,EAAE,GAAI;CACnB",
+	"mappings": ";AAIA,AAAA,OAAO,EAGP,AAHA,UAGU,EAAV,AAHA,gBAGU,GAQV,AAAA,AAXA,KAWC,EAAO,MAAM,AAAb,EAXM;EACL,MAAM,EAAE,eAAgB;CACzB;;;AACD,AAAA,gBAAU,CAED;EAEL,YAAY,EAAE,GAAI;CACnB;;;AAOH,AAAA,cAAc,CAAA;EACZ,UAAU,EAAE,KAAM;CACnB",
 	"names": []
 }

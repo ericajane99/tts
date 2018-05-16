@@ -13,6 +13,10 @@ body{
   }
 }
 
-[class^="col"]{
+[class^="col-"]{
   @extend .border;
+}
+
+.carousel-item{
+  max-height: 800px;
 }
