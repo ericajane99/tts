@@ -1,1 +1,11 @@
-body{background:blue}
+/* line 5, /Users/AmErica/Documents/GitHub/tts/week 6/bootstrap-page/style/scss/style.scss */
+.border, .container, .container-fluid, [class^="col"] {
+  border: solid 3px black;
+}
+
+/* line 10, /Users/AmErica/Documents/GitHub/tts/week 6/bootstrap-page/style/scss/style.scss */
+.container-fluid {
+  border-color: red;
+}
+
+/*# sourceMappingURL=../css/style.map */

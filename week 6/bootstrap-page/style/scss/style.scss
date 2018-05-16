@@ -1,3 +1,18 @@
 body{
-  background: blue;
+
+}
+
+.border{
+  border: solid 3px black;
+}
+.container{
+  @extend .border;
+  &-fluid{
+    @extend .border;
+    border-color: red;
+  }
+}
+
+[class^="col"]{
+  @extend .border;
 }
