@@ -1,2 +1,114 @@
+/* line 1, /Users/AmErica/Documents/GitHub/tts/week 7/CSS-Animations/style/scss/style.scss */
+body {
+  background-color: darkgreen;
+}
+
+/* line 4, /Users/AmErica/Documents/GitHub/tts/week 7/CSS-Animations/style/scss/style.scss */
+.timeline, .sky, .sun {
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+}
+
+/* line 10, /Users/AmErica/Documents/GitHub/tts/week 7/CSS-Animations/style/scss/style.scss */
+.sky {
+  height: 600px;
+  width: 100%;
+  background-color: skyblue;
+  padding-top: calc(300px - 25px);
+  overflow: hidden;
+  animation-name: skycolor;
+  animation-timing-function: cubic-bezier(0.17, 0.17, 0.17, 0.17);
+}
+
+@-webkit-keyframes skycolor {
+  0% {
+    background-color: orange;
+  }
+  25% {
+    background-color: lightblue;
+  }
+  50% {
+    background-color: skyblue;
+  }
+  75% {
+    background-color: darkblue;
+  }
+  100% {
+    background-color: black;
+  }
+}
+
+/* line 44, /Users/AmErica/Documents/GitHub/tts/week 7/CSS-Animations/style/scss/style.scss */
+.sun {
+  background-color: yellow;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  animation-name: sunset;
+  animation-timing-function: cubic-bezier(0.17, 0.17, 0.17, 0.17);
+}
+
+@-webkit-keyframes sunset {
+  0% {
+    background-color: pink;
+    transform: translate(-75vh, 350px) scale(1.5, 1.5);
+  }
+  25% {
+    transform: translate(-36vh, 150px);
+  }
+  40% {
+    background-color: yellow;
+    box-shadow: 0px 0px 20px white;
+    transform: translate(-12vh, 50px) scale(1, 1);
+  }
+  50% {
+    background-color: yellow;
+    box-shadow: 0px 0px 40px white;
+    transform: translate(0px, 0px);
+  }
+  60% {
+    background-color: yellow;
+    box-shadow: 0px 0px 20px white;
+    transform: translate(12vh, 50px) scale(1, 1);
+  }
+  75% {
+    transform: translate(36vh, 150px);
+  }
+  100% {
+    background-color: white;
+    transform: translate(75vh, 350px) scale(1.5, 1.5);
+  }
+}
+
+/* line 109, /Users/AmErica/Documents/GitHub/tts/week 7/CSS-Animations/style/scss/style.scss */
+.exampleClass {
+  animation-name: myFirstAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-iteration-count: 3;
+  animation-direction: normal;
+}
+
+@-webkit-keyframes myFirstAnimation {
+  0% {
+    transform: rotate(0deg);
+    transform: translate(0px, 0px);
+    transform: scale(1, 1);
+  }
+  50% {
+    transform: rotate(180deg);
+    transform: translate(0px, 10px);
+    transform: scale(2, 2);
+  }
+  100% {
+    transform: rotate(360deg);
+    transform: translate(0px, 20px);
+    transform: scale(3, 3);
+  }
+}
 
 /*# sourceMappingURL=../css/style.map */
